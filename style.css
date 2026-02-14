@@ -474,3 +474,65 @@ input[type=submit]:hover {
 }
 
 /*-End o-partners Section*/
+/*OUR SERVICES Section*/
+.service-sec {
+ margin-top: 20px;
+}
+
+.service-s h3,
+h1,
+p {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.service-s p {
+  justify-content: center;
+  text-align: center;
+  font-weight: 20px;
+  font-size: 12px;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+.service-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.service-num {
+  border: 2px solid blue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color: rgb(13, 13, 166);
+}
+
+.service-num ul li {
+  padding: 0 10px;
+}
+
+.sv-btn {
+  color: white;
+  margin-top: 20px;
+  background: rgb(4, 78, 78);
+  padding: 10px 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.svc-btn {
+  color: aliceblue;
+  padding: 10px 10px;
+  justify-content: center;
+  text-align: center;
+  background: rgb(26, 92, 120);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+  margin: 22px auto;
+}
+
+/* End OUR SERVICES Section*/
